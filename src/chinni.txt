@@ -1,0 +1,10 @@
+abc bbc cbc
+/* 
+************************************
+*/
+xyz yyx ojs
+pqr qqr rqr
+bbc abc cbc
+mno nno nno
+bbc cbc abc
+	
