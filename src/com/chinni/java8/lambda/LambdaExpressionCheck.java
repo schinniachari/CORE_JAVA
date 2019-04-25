@@ -35,6 +35,7 @@ public class LambdaExpressionCheck {
 		// lambda expressions that take more than one formal parameter
 		// IntegerMath addition = (a, b) -> {return (a + b);};
 		IntegerMath addition = (a, b) -> (a * b);
+		
 		IntegerMath subtraction = (a, b) -> a - b;
 		System.out.println(addition.hashCode());
 		System.out.println(addition.operation(10, 202));

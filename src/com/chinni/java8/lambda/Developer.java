@@ -1,7 +1,6 @@
 package com.chinni.java8.lambda;
 
 import java.math.BigDecimal;
-import java.util.Comparator;
 
 public class Developer{
 	public String name;
