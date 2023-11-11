@@ -1,4 +1,4 @@
-package com.chinni.logical_programming.sprial_matrix_printing;
+package com.chinni.projects.shapes;
 
 public class SprialMatrixPrinting {
 	static int iterationCount = 0;

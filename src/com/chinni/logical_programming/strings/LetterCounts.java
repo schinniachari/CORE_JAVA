@@ -1,9 +1,9 @@
-package com.chinni.logical_programming.count_of_letters_in_given_string;
+package com.chinni.logical_programming.strings;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class RepeatWords {
+public class LetterCounts {
 	public static void main(String[] args) {
 		System.out.println(calculateTheWords("ABCDABCDAD"));
 	}
