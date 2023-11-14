@@ -9,7 +9,8 @@ class Factory {
     public boolean isAvailableItems;
 
     synchronized void produce() {
-        System.out.println("produce() - items =  " + Arrays.asList(items) + "   isAvailable = " + isAvailableItems);
+        System.out.println("produce() - items =  " + Arrays.asList(items) + "   " +
+                "isAvailable = " + isAvailableItems);
         if (isAvailableItems) {
             try {
                 wait();
@@ -23,7 +24,8 @@ class Factory {
     }
 
     synchronized void consume() {
-        System.out.println("consume() - items =  " + Arrays.asList(items) + "   isAvailable = " + isAvailableItems);
+        System.out.println("consume() - items =  " + Arrays.asList(items) + "   " +
+                "isAvailable = " + isAvailableItems);
         if (!isAvailableItems) {
             try {
                 wait();
